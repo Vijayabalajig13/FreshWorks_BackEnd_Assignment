@@ -1,0 +1,8 @@
+Step 1->We create a Key-value pair data store in Web application.  
+Step 2->User will give either exiting file path or choose new path for store JSON file.  
+Step 3->This project will done three operations-Create, read, and delete. Input will be Key as a String and Value as a JSONObject for create operation.
+Step 4->In create Operation We read a JSON file and retreive JSONObject and convert into JSONArray. 
+Step 5->JSONArray as a value with key given by user will put into JSONObject. 
+Step 6->In Read Operation User will give a key, then read a JSON file and retrieve a JSONArray and traverse the JSONArray with key which will given by user.
+        if user key equals to key in JSON file then return the value for the key from JSON file.  
+Step 7->In Delete Operation the traverse will same as read operation but if user key equal with key in JSON file then delete the key and its value from JSON file store...  
